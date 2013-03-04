@@ -805,7 +805,7 @@ public class ColorMe extends JavaPlugin {
 		    .replaceAll("%playerName", world)
 		    .replaceAll("%player", target)
 		    .replaceAll("%groupName", value).replaceAll("%part", value)
-		    .replaceAll("%value", target).replaceAll("%version", "3.7");
+		    .replaceAll("%value", target).replaceAll("%version", "3.8");
 	    message = ChatColor.translateAlternateColorCodes('\u0026', message);
 	    if (cost != null) {
 		message = message.replaceAll("%costs", Double.toString(cost));
